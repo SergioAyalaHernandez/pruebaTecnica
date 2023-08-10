@@ -1,0 +1,322 @@
+{
+	"info": {
+		"_postman_id": "b884e2d9-7e6a-4320-879d-46b25d80bba0",
+		"name": "prueba tecnica",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "22440885"
+	},
+	"item": [
+		{
+			"name": "hotel",
+			"item": [
+				{
+					"name": "save hotel Cali",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "nameHotel",
+									"value": "Cali",
+									"type": "text"
+								},
+								{
+									"key": "roomsVip",
+									"value": "2",
+									"type": "text"
+								},
+								{
+									"key": "roomsPremium",
+									"value": "20",
+									"type": "text"
+								},
+								{
+									"key": "roomsEstandar",
+									"value": "0",
+									"type": "text"
+								},
+								{
+									"key": "dateIn",
+									"value": "01/01/2023",
+									"type": "text"
+								},
+								{
+									"key": "dateOut",
+									"value": "02/01/2023",
+									"type": "text"
+								},
+								{
+									"key": "season",
+									"value": "alta",
+									"type": "text"
+								},
+								{
+									"key": "cantPeople",
+									"value": "6",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/hotel/save",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"hotel",
+								"save"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "save hotel Barranquilla",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "nameHotel",
+									"value": "Barranquilla",
+									"type": "text"
+								},
+								{
+									"key": "roomsVip",
+									"value": "0",
+									"type": "text"
+								},
+								{
+									"key": "roomsPremium",
+									"value": "3",
+									"type": "text"
+								},
+								{
+									"key": "roomsEstandar",
+									"value": "30",
+									"type": "text"
+								},
+								{
+									"key": "dateIn",
+									"value": "01/01/2023",
+									"type": "text"
+								},
+								{
+									"key": "dateOut",
+									"value": "02/01/2023",
+									"type": "text"
+								},
+								{
+									"key": "season",
+									"value": "alta",
+									"type": "text"
+								},
+								{
+									"key": "cantPeople",
+									"value": "4",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/hotel/save",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"hotel",
+								"save"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "save hotel Cartagena",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "nameHotel",
+									"value": "Cartagena",
+									"type": "text"
+								},
+								{
+									"key": "roomsVip",
+									"value": "0",
+									"type": "text"
+								},
+								{
+									"key": "roomsPremium",
+									"value": "1",
+									"type": "text"
+								},
+								{
+									"key": "roomsEstandar",
+									"value": "10",
+									"type": "text"
+								},
+								{
+									"key": "dateIn",
+									"value": "01/01/2023",
+									"type": "text"
+								},
+								{
+									"key": "dateOut",
+									"value": "02/01/2023",
+									"type": "text"
+								},
+								{
+									"key": "season",
+									"value": "alta",
+									"type": "text"
+								},
+								{
+									"key": "cantPeople",
+									"value": "8",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/hotel/save",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"hotel",
+								"save"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "save hotel Bogotá",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "nameHotel",
+									"value": "Bogotá",
+									"type": "text"
+								},
+								{
+									"key": "roomsVip",
+									"value": "2",
+									"type": "text"
+								},
+								{
+									"key": "roomsPremium",
+									"value": "20",
+									"type": "text"
+								},
+								{
+									"key": "roomsEstandar",
+									"value": "20",
+									"type": "text"
+								},
+								{
+									"key": "dateIn",
+									"value": "01/01/2023",
+									"type": "text"
+								},
+								{
+									"key": "dateOut",
+									"value": "02/01/2023",
+									"type": "text"
+								},
+								{
+									"key": "season",
+									"value": "alta",
+									"type": "text"
+								},
+								{
+									"key": "cantPeople",
+									"value": "8",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/hotel/save",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"hotel",
+								"save"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "listar hoteles",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/hotel/list",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"hotel",
+								"list"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "listar hoteles por id",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/hotel/mostrarId/64d54932dac5e51e8057a76d",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"hotel",
+								"mostrarId",
+								"64d54932dac5e51e8057a76d"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
